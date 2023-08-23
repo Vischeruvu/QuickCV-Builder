@@ -1,4 +1,4 @@
-# Resume generator
+# QuickCV Builder
 Web based editor to create Resume in a customizable template  
   
 Try it : https://vischeruvu.github.io/QuickCV-Builder/
