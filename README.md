@@ -1,4 +1,4 @@
-# Open Resumes 
+# QuickCV Builder
 
 ## About The Website
 
