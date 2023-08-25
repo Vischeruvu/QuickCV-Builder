@@ -33,10 +33,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-client_id = 'e4cfa449-5da4-465b-b7d5-b95f56246469'
+client_id = '267960ea-58e6-4206-9fbb-95ba2a47504b'
 tenant_id = '850aa78d-94e1-4bc6-9cf3-8c11b530701c'
-client_secret = 'fDYVBo_VkE0_OmK1~dh64YAQiR~rP3J5Qd'
+client_secret = 'Flj8Q~.RwnVNABmg9FgxNrJupi2BgGBkdtEiZatS'
 
+# clien_id = 'e4cfa449-5da4-465b-b7d5-b95f56246469'
 # client_id = '4161b707-2585-441d-8220-d4622181d291'
 # tenant_id = '850aa78d-94e1-4bc6-9cf3-8c11b530701c'
 # client_secret = 'd1jEA8li319-9oq8--3c84Pm~_~Qpr3YAO'
@@ -78,6 +79,8 @@ INSTALLED_APPS = [
     'django_auth_adfs',
     'app',
 ]
+
+SITE_ID = 1
 
 #app's client id
 #938d19c2-7557-42a0-8061-18f13004a54a
@@ -172,7 +175,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR,
 ]
-SITE_ID=1
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')

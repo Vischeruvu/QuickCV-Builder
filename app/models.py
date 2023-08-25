@@ -10,6 +10,9 @@ class Resume(models.Model):
 
     def __str__(self):
         return self.name
+        
+    class Meta:
+        app_label = 'app'
 
 class User_resume_relation(models.Model):
     user = models.ForeignKey(User,on_delete = models.CASCADE)
