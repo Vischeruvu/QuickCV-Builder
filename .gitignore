@@ -1,0 +1,17 @@
+latexFile.tex
+latexFile.aux
+latexFile.out
+temp.tex
+static/data/datafile.txt
+__pycache__/
+app/__pycache__/
+openresume/__pycache__/
+latexFile.log
+static/pdfs/
+static/latex/
+static/datafile.txt
+app/migrations/__pycache__/
+**/__pycache__
+db.sqlite3
+media/
+latexFile.pdf

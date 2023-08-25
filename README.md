@@ -1,27 +1,88 @@
-# Resume generator
-Web based editor to create Resume in a customizable template  
-  
-Try it : https://nitish6174.github.io/resume-generator/  
+# Open Resumes 
 
-**Note** : Click the "VIEW INSTRUCTIONS" button in the editor to read usage instructions.
+## About The Website
 
-#### Features
-- Resume content can be edited just like a normal document editor (cut,copy,undo etc).
-- Entire sections can be added, reordered, removed just by cut,copy,pasting method.
-- Section visibility can be toggled while retaining the content.
-- Options provided in the left panel to modify the template and formatting.
-- Sub-points can be added with various bullet styles and adjustable indentation.
-- Script provided to merge multiple pages and compress the PDF.
+Open Resumes is a Resume generator that takes several fields which are generally included in resumes like education, technical skills, achievements, projects, experience, etc as inputs from a user-friendly form and generates resumes. It is an authenticated web application for IIT Guwahati students built with Django framework. It makes the process of making resumes easier and faster.
 
-#### Using the merge & compress script
-- You must be able to run python file on your system for this.
-- Save the individual pages in PDF format with name ```1.pdf``` , ```2.pdf```
-- Download the ```compress_pdf.py``` file and open it in a text editor.
-- Set the following variables :
-	- ```dir_path``` : Directory path where you saved the PDFs for individual page
-	- ```num_of_pages``` : Number of files to merge (i.e. pages in your Resume)
-	- ```out_file``` : Name of output file
-- Run this python file.
-- Note: As this creates a new PDF file, you may have to see permission settings or run with sudo on terminal.
 
-**Note** : Use Google Chrome
+### Environment Setup Locally
+
+* Install [Django](https://docs.djangoproject.com/en/3.2/topics/install/) and [Strawberry Perl](https://strawberryperl.com/)
+* Install all the required packages mentioned in the [requirements.txt](https://github.com/Nikitha2309/OpenResumes/blob/master/requirements.txt) using the command `pip install -r requirements.txt`
+* Run the server and Connect the port to localhost:8000
+
+### Tech Stack Used
+* Django
+* SQLite
+* Latex
+* Tailwind CSS
+* HTML
+* JavaScript
+
+### Key Features
+
+* Login and logout securely using the IITG mail ID.
+* Create mutliple resumes for various profiles.
+* Edit the resumes created.
+* Download the resume as well as the LaTeX code.
+* Share the link of the resume.
+* Make a auto-formatted, good looking resume from a simple, flexible and user friendly form without the need of LaTeX knowledge in few minutes. 
+
+### Login Page
+
+* The web application is authenticated and a user must signin using the IIT Guwahati work mail ID.
+
+![](/read_me_data/8.jpeg)
+
+### Home Page
+
+* After login the home page is displayed, where user can create resume.
+
+![](/read_me_data/10.jpeg)
+
+* Multiple resumes can be created for various profiles.
+
+![](/read_me_data/11.jpeg)
+
+* Each created resume has the following features.
+    * Rename the resume.
+    * Edit the form fields to recompile and update the resume.
+    * Download the resume (in pdf format) and the LaTeX code of the resume.
+    * Share the resume through a link.
+    * Create a copy of the resume.
+    * Delete the resume
+    
+![](/read_me_data/12.jpeg)
+
+
+### Resume Page
+
+* The resume page contains several sections that needs to be filled.
+
+![](/read_me_data/13.jpeg)
+
+* Each section contains the related input fields which are auto populated with the user's information. If a user is visiting the website for the first time form fields are auto populated with the sample data.
+
+![](/read_me_data/2.jpeg)
+
+* Progress can be saved after filling each section.
+
+![](/read_me_data/3.jpeg)
+
+* The high flexibility is provided to make the form more user friendly.
+
+![](/read_me_data/4.jpeg)
+
+* Multiple experiences can be added in the experience section of the resume.
+
+![](/read_me_data/5.jpeg)
+
+* Once all the required inputs are filled, user can simply click on compile button and see the preview the resume with the comfort of features like zoom-in, zoom-out.
+
+![](/read_me_data/7.jpeg)
+
+* Finally the resume ( in pdf format ) or the latex code related to the resume can be downloaded.
+
+
+# [Certificate of Appreciation](https://drive.google.com/file/d/1JeLp0Pa3HbC6Jcn7LbwRvUvLT80nuPGk/view?usp=sharing)
+
